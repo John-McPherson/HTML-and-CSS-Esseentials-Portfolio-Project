@@ -9,7 +9,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 body{
     font-family:Madawaska, serif;
@@ -96,6 +96,8 @@ a:hover{
     flex-flow: row nowrap;
     background-color: var(--dark-gray);
     margin: var(--margin);
+    border: 1em solid var(--dark-gray);
+    border-radius: 5px;
     margin-top: 7.5em;
     justify-content: center;
     align-content: center;
@@ -127,7 +129,7 @@ a:hover{
 }
 
 .gallery-img{
-    width:20%;
+    width:25%;
     padding: 0em 1.5em .75em 1.5em;
 }
 .gallery-img img {
@@ -142,3 +144,45 @@ a:hover{
 }
 
 /* newsletter sign up style */
+
+#newsletter {
+   text-align: center;
+   height:125px;
+   margin: var(--margin);
+   background-color: var(--dark-gray);
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   align-content: center;
+   border: 1em solid var(--dark-gray);
+   border-radius: 5px;
+   
+}
+#newsletter label{
+    font-family:bio-sans, sans-serif;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: .5em;
+}
+#newsletter input{
+    height: 2.5em;
+    box-sizing: border-box;
+    background-color: var(--light-gray);
+    border: .25em solid var(--white);
+    border-radius: 5px;
+}
+#newsletter input[type=email]{
+    width:20%;
+    padding: 0 .5em;
+}
+#newsletter input[type=submit]{
+    width:10%;
+    font-family:bio-sans, sans-serif;
+    font-weight: 700;
+}
+#newsletter input[type=submit]:hover{
+    color:var(--hover-red);
+    border: .25em solid var(--hover-red);
+}
