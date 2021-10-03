@@ -1,0 +1,17 @@
+:root{
+    --white: #fff;
+    --dark-gray: rgb(71,74,91);
+    --light-gray: #D1D1D1;
+    --hover-red: #C11F25;
+    --spacing:1.5em;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Madawaska, serif;
+    font-weight: 400;
+    color: var(--dark-gray);
+}
