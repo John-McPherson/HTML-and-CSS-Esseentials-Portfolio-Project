@@ -30,6 +30,13 @@ h2{
     text-align: center;
     padding: var(--padding);
 }
+h3{
+    font-size: 1.5em;
+    font-family:bio-sans, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;  
+    color:var(--light-gray)
+}
 .subhead-dark-bg{
     color: var(--white);
 }
@@ -236,11 +243,27 @@ a:hover{
     align-content: center;
     height: auto;  
 }
+#editoral th,tr{
+    text-align: left;
+    margin-left: 1em;
+}
+
+#editoral th{
+    font-family:bio-sans, sans-serif;
+    color: var(--white);
+}
+#editoral tr{
+    color: var(--light-gray);
+}
 .editorial-testimonials{
     background-color: var(--white);
+    width: 60%;
+}
+.editorial-rates{
+;
+    width: 40%;
 }
 #editoral >div{
-    width: 50%;
     padding: var(--padding);
 }
 #editoral p{
