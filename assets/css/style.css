@@ -128,15 +128,15 @@ a:hover{
 
 .gallery-img{
     width:20%;
-    padding: 1.5em;
+    padding: 0em 1.5em .75em 1.5em;
 }
 .gallery-img img {
     width:100%;
-    border: 5px solid white;
-    border-radius: 3px;
+    border: .35em solid white;
+    border-radius: 10%;
 }
 .gallery-img img:hover{
     width:100%;
-    border: 5px solid var(--hover-red);
-    border-radius: 3px;
+    border: .35em solid var(--hover-red);
+    border-radius: 10%;
 }
