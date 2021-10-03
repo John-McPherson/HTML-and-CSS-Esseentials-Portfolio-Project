@@ -3,6 +3,7 @@
     --dark-gray: rgb(71,74,91);
     --light-gray: #D1D1D1;
     --hover-red: #C11F25;
+    --button-padding:.5em 1.5em;
     --padding:1.25em 2.5em;
     --margin:2rem 8rem;
 }
@@ -53,6 +54,26 @@ a:hover{
     color: var(--hover-red);
 }
 
+/* button styling for links */
+
+.button{
+    background-color: var(--dark-gray);
+    color: var(--light-gray);
+    padding: var(--button-padding);
+    font-family:bio-sans, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;  
+    border: .25em solid var(--light-gray);
+    border-radius: 2.5px;
+}
+.alt-button{
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+    border: .25em solid var(--dark-gray);
+}
+.button:hover{
+    border: .25em solid var(--hover-red);
+}
 /* header and nav bar style */
 
 header{
@@ -148,6 +169,15 @@ a:hover{
     border: .35em solid white;
     border-radius: 10%;
 }
+
+/* style for lettering buttons */
+.lettering-buttons{
+    padding: var(--padding);
+}
+.lettering-buttons >a{
+    margin: 1em;
+}
+
 /* newsletter sign up style */
 
 #newsletter-form {
@@ -173,7 +203,6 @@ a:hover{
 }
 #newsletter-form input{
     height: 2.5em;
-    box-sizing: border-box;
     background-color: var(--light-gray);
     border: .25em solid var(--white);
     border-radius: 5px;
