@@ -29,7 +29,6 @@ h2{
     font-size: 2em;
     text-align: center;
     padding: var(--padding);
-    padding-bottom: 0;
 }
 .subhead-dark-bg{
     color: var(--white);
@@ -122,8 +121,10 @@ a:hover{
     margin-top: 7.5em;
     justify-content: center;
     align-content: center;
-    height: 450px;
-    
+    height: 450px;  
+}
+#about h2{
+    padding-bottom: 0;
 }
 .about-text{
     display: flex;
@@ -220,3 +221,6 @@ a:hover{
     color:var(--hover-red);
     border: .25em solid var(--hover-red);
 }
+
+/* editoral section style */
+
