@@ -224,3 +224,35 @@ a:hover{
 
 /* editoral section style */
 
+#editoral {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: var(--dark-gray);
+    margin: var(--margin);
+    border: .5em solid var(--dark-gray);
+    border-radius: 5px;
+    margin-top: 7.5em;
+    justify-content: center;
+    align-content: center;
+    height: auto;  
+}
+.editorial-testimonials{
+    background-color: var(--white);
+}
+#editoral >div{
+    width: 50%;
+    padding: var(--padding);
+}
+#editoral p{
+    text-align: justify;
+    padding: var(--padding);
+}
+
+.editorial-testimonials a{
+    float:right;
+    color:var(--hover-red);
+}
+.editorial-testimonials a:hover{
+    text-decoration: underline;
+}
+
