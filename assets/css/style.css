@@ -151,7 +151,10 @@ a:hover{
 }
 #about img {
     height:450px;
-    align-content: center;
+}
+.about-img{
+    text-align: center;
+
 }
 
 /* img gallery style for work and lettering sections*/
@@ -451,7 +454,6 @@ footer{
         letter-spacing: .25em;
     }
     nav{
-        /* display: none; */
         width: 100%;
         background-color: var(--white);
         transform: scale(1,0);
@@ -517,3 +519,47 @@ footer{
     }
 
 }
+
+
+/* for small screens 960px and down  */
+@media screen and (max-width:960px){
+
+    :root{
+        --margin:2rem 8rem;
+    }
+    
+
+  /* image gallery  */ 
+    .gallery-img{
+    width:50%;
+    }
+
+/* about me section */
+
+#about{
+    flex-flow: column;
+    height: auto;
+    justify-content: center;
+}
+#about > div{
+    width: 100%;
+}
+
+/* editorial section */
+
+#editoral{
+    flex-flow: column;
+    text-align: center;
+}
+.editorial-rates,.editorial-testimonials{
+    width: 100%;
+}
+.editorial-rates{
+    padding-left:30%;
+    padding-right:30%;
+}
+}
+
+/* for small screens 741 and down  */
+@media screen and (max-width:741px){
+    
