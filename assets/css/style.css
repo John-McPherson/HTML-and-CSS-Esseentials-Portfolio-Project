@@ -31,10 +31,9 @@ h2{
     padding: var(--padding);
 }
 h3{
-    font-size: 1.5em;
+    font-size: 2em;
     font-family:bio-sans, sans-serif;
     font-weight: 700;
-    text-transform: uppercase;  
     color:var(--light-gray)
 }
 .subhead-dark-bg{
@@ -251,16 +250,21 @@ a:hover{
 #editoral th{
     font-family:bio-sans, sans-serif;
     color: var(--white);
+    font-size: 1.1em;
 }
 #editoral tr{
     color: var(--light-gray);
 }
 .editorial-testimonials{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
     background-color: var(--white);
     width: 60%;
 }
 .editorial-rates{
-;
+    display: flex;
+    flex-flow: column nowrap;
     width: 40%;
 }
 #editoral >div{
@@ -268,14 +272,24 @@ a:hover{
 }
 #editoral p{
     text-align: justify;
-    padding: var(--padding);
+    padding: .25em 1em
 }
 
 .editorial-testimonials a{
-    float:right;
+    align-self: flex-end;
     color:var(--hover-red);
+    padding-right: 3em;
 }
 .editorial-testimonials a:hover{
     text-decoration: underline;
 }
-
+.editorial-rates > h2{
+    padding: 1em 0;
+}
+.editorial-rates > a{
+    align-self: center;
+    margin: 1.5em;
+}
+.editorial-rates > table{
+    padding: 2em;
+}
