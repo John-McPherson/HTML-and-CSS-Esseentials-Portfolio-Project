@@ -246,7 +246,7 @@
                 Email Address:
             </label>
             <input id="email-contact" name="email-address" type="email" required placeholder="Enter Your Email Address here...">
-            <label for="reason">Reason for Contact</label>
+            <label for="reason">Reason for Contact:</label>
             <select id="reason" name="reason-for-contact" required>
                 <option value="Writing-enquiry">Writing Job</option>
                 <option value="lettering-enquiry">Lettering Job</option> 
@@ -254,12 +254,29 @@
                 <option value="fan-mail">Fan Mail</option>
                 <option value="other">other</option>
             </select>
+            <textarea name="contact-text" id="contact-text" cols="30" rows="10" required placeholder="Type your message here..."></textarea>
             <input type="submit" value="Submit">
         </form>
     </section>
     <footer>
-        social media
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
+
+        <!-- font awesome script -->
+        <script src="https://kit.fontawesome.com/b6cc208011.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
