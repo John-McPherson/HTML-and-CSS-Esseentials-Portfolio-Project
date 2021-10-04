@@ -235,8 +235,27 @@
         </div>
         </div>
     </section>
-    <section>
-        contact
+    <section id="contact">
+        <h2 class="subhead-dark-bg">Contact me</h2>
+        <form method="GET" action="#"> 
+            <label for="name">
+                Your Name:
+            </label>
+            <input id="name" name="fname" type="text" required placeholder="Enter Your Name Here">
+            <label for="email-contact">
+                Email Address:
+            </label>
+            <input id="email-contact" name="email-address" type="email" required placeholder="Enter Your Email Address here...">
+            <label for="reason">Reason for Contact</label>
+            <select id="reason" name="reason-for-contact" required>
+                <option value="Writing-enquiry">Writing Job</option>
+                <option value="lettering-enquiry">Lettering Job</option> 
+                <option value="editorial-enquity">Editorial Job</option>
+                <option value="fan-mail">Fan Mail</option>
+                <option value="other">other</option>
+            </select>
+            <input type="submit" value="Submit">
+        </form>
     </section>
     <footer>
         social media
