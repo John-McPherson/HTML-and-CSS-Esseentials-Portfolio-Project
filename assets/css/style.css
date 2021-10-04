@@ -101,7 +101,7 @@ header{
 }
 .logo > h1{
     font-size: 3em;
-    margin: 0 1.5em;
+    margin-left: 1.5em;
 }
 nav > ul{
     display: flex;
@@ -118,6 +118,9 @@ header a {
 }
 a:hover{
     color: var(--hover-red);
+}
+.nav-toggle,.nav-toggle-label{
+    display: none;
 }
 
 /* style for about me section */
@@ -413,4 +416,89 @@ footer{
 
 .social-networks i:hover{
     color: var(--hover-red);
+}
+
+/* media queries for responsive design */
+
+/* for large screens 1093px and down  */
+@media screen and (max-width:1093px){
+
+    /* nav bar and header */
+    
+    header {
+        flex-flow: column;
+       
+    }
+    .logo h1{
+        text-align: center;
+        margin: 0;
+
+    }
+    nav > ul{
+        flex-flow: column;
+        height: auto; 
+        align-self: flex-start;
+        background-color: var(--white);
+    }
+    header li{
+        align-self: flex-start;
+        margin: .25em 2em;
+        letter-spacing: .25em;
+    }
+    nav{
+        /* display: none; */
+        width: 100%;
+        background-color: var(--white);
+        transform: scale(1,0);
+        transform-origin: top;
+        transition: transform 400ms ease-in-out;
+    }
+    .nav-toggle:checked ~ nav {
+        transform: scale(1,1);
+    }
+    nav a{
+        opacity: 0;
+        transition: opacity 150ms ease-in-out;
+    }
+    .nav-toggle-label{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 2em;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after{
+        display: block;
+        background:var(--dark-gray);
+        height:2px;
+        width:2em;
+        border-radius: 2px;
+        position:relative;
+    }
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        content: '';
+        position: absolute;
+    }
+    .nav-toggle-label span::before{
+        bottom: 7px;
+    }
+    .nav-toggle-label span::after{
+        top: 7px;
+    }
+    .nav-toggle:checked ~ nav a{
+        opacity: 1;
+        transition: opacity 250ms ease-in-out 250ms;
+    }
+    
+    /* image gallery  */ 
+    .gallery-img{
+        width:33%;
+    }
 }
