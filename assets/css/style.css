@@ -356,7 +356,7 @@ textarea{
     background-color: var(--dark-gray);
     border: 1em solid var(--dark-gray);
     margin: var(--margin);
-    margin:2rem 20rem;;
+    margin:2rem 20rem;
     border-radius: 5px;
     height: auto;
 }
@@ -422,6 +422,11 @@ footer{
 
 /* for large screens 1093px and down  */
 @media screen and (max-width:1093px){
+
+    :root{
+        --margin:2rem 4rem;
+    }
+    
 
     /* nav bar and header */
     
@@ -496,9 +501,19 @@ footer{
         opacity: 1;
         transition: opacity 250ms ease-in-out 250ms;
     }
-    
+
     /* image gallery  */ 
     .gallery-img{
         width:33%;
     }
+
+    /* contact form */
+    #contact{
+        margin: 15%;
+    }
+    #contact > form{
+        width: 100%;
+        padding: var(--padding);
+    }
+
 }
