@@ -529,7 +529,7 @@ footer {
     text-align: left;
 }
 
-.work-blurb-links a {
+.work-blurb-links a,li {
     color: var(--white);
     font-family: bio-sans, sans-serif;
     font-weight: 400;
