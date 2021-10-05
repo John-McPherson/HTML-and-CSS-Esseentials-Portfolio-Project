@@ -611,7 +611,7 @@ footer {
 @media screen and (max-width:960px) {
 
     :root {
-        --margin: 2rem 8rem;
+        --margin: 2rem 4rem;
     }
 
 
@@ -657,11 +657,6 @@ footer {
 
 /* for small screens 741 and down  */
 @media screen and (max-width:741px) {
-
-    :root {
-        --margin: 2rem 4rem;
-    }
-
 
     .lettering-buttons {
         display: flex;
