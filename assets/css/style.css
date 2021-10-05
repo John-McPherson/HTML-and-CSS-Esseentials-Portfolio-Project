@@ -160,6 +160,7 @@ a:hover {
 }
 
 #about h2 {
+    padding:var(--padding);
     padding-bottom: 0;
 }
 
@@ -223,7 +224,7 @@ a:hover {
 }
 
 .lettering-buttons>a {
-    margin: 1em;
+    margin: .5em;
 }
 
 /* basic form style */
@@ -425,7 +426,7 @@ tr {
 }
 
 #contact>h2 {
-    padding-bottom: .75em;
+    padding: .75em;
 }
 
 #contact>form {
@@ -453,9 +454,8 @@ select {
 }
 
 #contact input[type=submit] {
-    margin: 2em;
-    width: 20%;
-    margin: var(--margin);
+    margin-top: 2em;
+    width: 8em;
 }
 
 #contact label {
@@ -648,13 +648,23 @@ footer {
         padding-left: 30%;
         padding-right: 30%;
     }
+       /* contact form */
+       #contact {
+        margin: var(--margin);
+    }
 }
 
 /* for small screens 741 and down  */
 @media screen and (max-width:741px) {
 
+    :root{
+        --margin: 2rem 4rem;
+    }
+
+
     .lettering-buttons {
         display: flex;
         flex-flow: column;
+        padding: 0;
     }
 }
