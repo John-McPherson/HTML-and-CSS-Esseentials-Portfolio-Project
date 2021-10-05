@@ -96,7 +96,7 @@ a:hover {
 }
 
 .button:hover {
-    border: .25em solid var(--hover-red);
+    border: .35em solid var(--hover-red);
 }
 
 /* header and nav bar style */
