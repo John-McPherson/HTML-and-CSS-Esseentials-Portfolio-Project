@@ -497,55 +497,65 @@ footer {
 
 /* work sample pages style */
 
-.work-container{
+.work-container {
     display: flex;
     flex-flow: row nowrap;
 }
-.work-pages{
-    width:70%;
+
+.work-pages {
+    width: 70%;
     margin-top: 4.5em;
 }
-.work-pages > img{
+
+.work-pages>img {
     width: 100%;
 }
-.work-blurb{
+
+.work-blurb {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-content: center;
     height: 100vh;
-    width:30%;
+    width: 30%;
     background-color: var(--dark-gray);
-    position:fixed;
+    position: fixed;
     right: 0;
 }
-.work-blurb > p {
+
+.work-blurb>p {
     color: var(--light-gray);
     text-align: left;
 }
-.work-blurb-links a{
+
+.work-blurb-links a {
     color: var(--white);
     font-family: bio-sans, sans-serif;
     font-weight: 400;
     font-size: 1em;
 }
-.work-blurb-links a:hover{
+
+.work-blurb-links a:hover {
     color: var(--hover-red);
 }
-.work-blurb > ul{
+
+.work-blurb>ul {
     padding: var(--padding);
     margin-bottom: 2.5rem;
 }
-.work-blurb > h2{
+
+.work-blurb>h2 {
     padding: var(--padding);
     font-size: 1.5em;
     text-align: left;
 }
-.work-blurb > div{
+
+.work-blurb>div {
     align-self: center;
     padding: var(--padding);
 }
-.buy-link > a {
+
+.buy-link>a {
     background-color: var(--light-gray);
     color: var(--dark-gray);
 }
@@ -553,6 +563,20 @@ footer {
 
 
 /* media queries for responsive design */
+
+/* for large screens 1150px and down  */
+@media screen and (max-width:1150px) {
+
+    /* work samples pages style  */
+
+    .work-blurb {
+        width: 40%;
+    }
+
+    .work-pages {
+        width: 60%;
+    }
+}
 
 /* for large screens 1093px and down  */
 @media screen and (max-width:1093px) {
@@ -710,6 +734,48 @@ footer {
     #contact {
         margin: var(--margin);
     }
+
+    /* work sample pages  */
+
+    .work-container {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .work-blurb {
+        height: auto;
+        width: 100%;
+        position:inherit;
+        margin: 7.5em 0 0 0;
+        text-align: center;
+        right: auto;
+        order:1;
+
+    }
+    .work-pages {
+        width: 100%;
+        order:2;
+        margin-top: 0;
+    }
+    .work-blurb > h2,a,p{
+        text-align: center;
+    }
+    .work-blurb>ul {
+        margin: 0;
+    }
+    .buy-link{
+        margin: var(--margin);
+        margin-top: 0;
+    }
+    .work-blurb >h2{
+        margin: var(--margin);
+        font-size: 2.5em;
+        margin-bottom:0;
+    }
+    .work-blurb>p{
+        margin: 0 3em;
+        text-align: center;
+    }
 }
 
 /* for small screens 741 and down  */
@@ -720,6 +786,15 @@ footer {
         flex-flow: column;
         padding: 0;
     }
+
+    /* header */
+
+    .logo>h1 {
+        font-size: 2.5em;
+        margin-left: 1.5em;
+    }
+
+
 
     /* contact form */
 
@@ -737,5 +812,11 @@ footer {
     #newsletter input {
         width: 100%;
         margin: 1em 0;
+    }
+
+    /* work sample pages  */
+    
+    .work-blurb>p{
+        margin: 0 1em;
     }
 }
