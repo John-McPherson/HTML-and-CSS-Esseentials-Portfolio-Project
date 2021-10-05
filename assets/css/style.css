@@ -473,7 +473,6 @@ footer {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    margin-top: 4em;
     position: relative;
     z-index: 100;
 }
