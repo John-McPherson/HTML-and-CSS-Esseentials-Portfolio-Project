@@ -151,8 +151,8 @@ a:hover {
     flex-flow: row nowrap;
     background-color: var(--dark-gray);
     margin: var(--margin);
-    /* border: 1em solid var(--dark-gray);
-    border-radius: 5px; */
+    border: 1em solid var(--dark-gray);
+    border-radius: 5px;
     margin-top: 7.5em;
     justify-content: center;
     align-content: center;
@@ -176,7 +176,7 @@ a:hover {
 }
 
 #about img {
-    height: 450px;
+    height: 434px;
 }
 
 .about-img {
