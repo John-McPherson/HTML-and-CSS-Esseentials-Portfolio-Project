@@ -4,7 +4,7 @@
     --light-gray: #D1D1D1;
     --hover-red: #C11F25;
     --button-padding: .5em 1.5em;
-    --padding: 1.25em 2.5em;
+    --padding: 1.25rem 2.5rem;
     --margin: 4rem 8rem;
 }
 
@@ -501,6 +501,55 @@ footer {
     display: flex;
     flex-flow: row nowrap;
 }
+.work-pages{
+    width:70%;
+    margin-top: 4.5em;
+}
+.work-pages > img{
+    width: 100%;
+}
+.work-blurb{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width:30%;
+    background-color: var(--dark-gray);
+    position:fixed;
+    right: 0;
+}
+.work-blurb > p {
+    color: var(--light-gray);
+    text-align: left;
+}
+.work-blurb-links a{
+    color: var(--white);
+    font-family: bio-sans, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+.work-blurb-links a:hover{
+    color: var(--hover-red);
+}
+.work-blurb > ul{
+    padding: var(--padding);
+    margin-bottom: 2.5rem;
+}
+.work-blurb > h2{
+    padding: var(--padding);
+    font-size: 1.5em;
+    text-align: left;
+}
+.work-blurb > div{
+    align-self: center;
+    padding: var(--padding);
+}
+.buy-link > a {
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+}
+
 
 
 /* media queries for responsive design */
