@@ -226,7 +226,9 @@ a:hover {
 .lettering-buttons>a {
     margin: .5em;
 }
-
+.lettering-buttons i {
+    padding-right: .5em;
+}
 /* basic form style */
 
 textarea,
