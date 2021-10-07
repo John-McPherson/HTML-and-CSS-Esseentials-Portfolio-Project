@@ -2,7 +2,9 @@
 
 Jed McPherson - Comic Writer is a personal website for the comic book writer Jed McPherson. The site is targeted towards fans of the writer’s work, new readers, and potential collaborators, or employers. Jed McPherson - Comic Writer will act as an online portfolio, providing examples of the writer's work, links to purchase the books, and information on how to hire the writer for your project. 
 
-This project is the first milestone project for the Code Institute Diploma in Full Stack Software Development. You can see the final deployed site [here.](site)
+This project is the first milestone project for the Code Institute Diploma in Full Stack Software Development. You can see the final deployed site [here.](https://john-mcpherson.github.io/HTML-and-CSS-Esseentials-Portfolio-Project/)
+
+![Site mockup](./assets/images/read-me-img/jedmcpherson-responsive.jpg)
 
 ## **Contents**
 * [UX](#ux)
@@ -22,6 +24,7 @@ This project is the first milestone project for the Code Institute Diploma in Fu
 * [Features left to implement](features-left-to-implement)
     * [Upcoming Appearances](#upcoming-appearances)
     * [Update Navbar](#update-navbar)
+* [Technologies Used](technologies-used)
 * [Deployment](#deployment)
 * [Credits](#credits)
     * [Content](#content)
@@ -64,6 +67,12 @@ I used muted colours so as to not distract from the art work and book covers.
 
 ### **Wireframes**
 Before starting on the project, I created a mock up using Adobe Xd.  
+#### **Desktop**
+![Home page desktop wireframe](./assets/images/read-me-img/home-wireframe-desktop.jpg)
+![Writing portfolio wireframe desktop](./assets/images/read-me-img/portfolio-wireframe-desktop.jpg)
+#### **Mobile**
+![Home page mobile wireframe](./assets/images/read-me-img/home-wireframe-mob.jpg)
+![Writing portfolio wireframe mobile](./assets/images/read-me-img/portfolio-wireframe-mob.jpg)
 
 ## **Features**
 
@@ -115,6 +124,13 @@ Before starting on the project, I created a mock up using Adobe Xd.
 * Change the nav bar to make use of JavaScript rather than CSS hacks on smaller screens. 
 
 ## **Testing**
+
+## **Technologies Used**
+
+### **Languages** 
+
+* HTML5
+* CSS3
 
 ## **Deployment**
 
