@@ -4,7 +4,7 @@ Jed McPherson - Comic Writer is a personal website for the comic book writer Jed
 
 This project is the first milestone project for the Code Institute Diploma in Full Stack Software Development. You can see the final deployed site [here.](https://john-mcpherson.github.io/HTML-and-CSS-Esseentials-Portfolio-Project/)
 
-![Site mockup](./assets/images/read-me-img/jedmcpherson-responsive.jpg)
+![Site mock-up](./assets/images/read-me-img/jedmcpherson-responsive.jpg)
 
 ## **Contents**
 * [UX](#ux)
@@ -25,6 +25,7 @@ This project is the first milestone project for the Code Institute Diploma in Fu
     * [Upcoming Appearances](#upcoming-appearances)
     * [Update Navbar](#update-navbar)
 * [Technologies Used](technologies-used)
+* [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
     * [Content](#content)
@@ -125,6 +126,8 @@ Before starting on the project, I created a mock up using Adobe Xd.
 
 ## **Testing**
 
+[Link to External testing document](./TESTING.md)
+
 ## **Technologies Used**
 
 ### **Languages** 
@@ -133,6 +136,14 @@ Before starting on the project, I created a mock up using Adobe Xd.
 * CSS3
 
 ## **Deployment**
+
+The site is deployed via github pages. To deploy the site:
+
+1. Go to the Github repository for the project.
+2. Click on the settings menu at the top right-hand side of the page. 
+3. Scroll down and select the pages tab towards the bottom of the menu. 
+4. Select the source branch that you want to publish. 
+5. Click save. This will generate a url for the site.  
 
 ## **Credits**
 
@@ -163,6 +174,7 @@ All fonts used in the project were taken from [Adobe Fonts](https://fonts.adobe.
 * [Kevin Powell’s YouTube channel](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) was incredibly useful in understanding more complex elements of CSS and HTML. In particular his video series on flexbox was very helpful in helping me to understand how to use display flex to layout pages.
 * [Free Code Camp](https://www.freecodecamp.org/) for introducing me to coding. 
 * [Css-tricks.com](https://css-tricks.com/) and [W3Schools](https://www.w3schools.com/) for helping me whenever I got stuck. 
+
 
 
 
