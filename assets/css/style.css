@@ -716,6 +716,11 @@ footer {
         width: 100%;
     }
 
+    #about img {
+        height: auto;
+        width: 100%;
+    }
+
     /* editorial section */
 
     #editoral {
@@ -792,12 +797,14 @@ footer {
 
     /* header */
 
+    :root {
+        --margin: 2rem 1.5rem;
+    }
+
     .logo>h1 {
         font-size: 2.5em;
         margin-left: 1.5em;
     }
-
-
 
     /* contact form */
 
@@ -821,5 +828,16 @@ footer {
     
     .work-blurb>p{
         margin: 0 1em;
+    }
+    /* header */
+    .logo>h1 {
+        font-size: 2em;
+        padding-right: 0;
+    }
+    header {
+        height: 50px;
+    }
+    .nav-toggle-label {
+        margin-left: 1em;
     }
 }
