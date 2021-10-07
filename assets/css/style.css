@@ -327,7 +327,7 @@ textarea {
 
 }
 
-#newsletter-form label {
+#newsletter-form h2 {
     font-family: bio-sans, sans-serif;
     color: var(--white);
     text-transform: uppercase;
