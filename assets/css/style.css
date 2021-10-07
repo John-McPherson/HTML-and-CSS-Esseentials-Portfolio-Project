@@ -521,6 +521,7 @@ footer {
     align-content: center;
     height: 100vh;
     width: 35%;
+    padding-top: 4.5em;
     background-color: var(--dark-gray);
     position: fixed;
     right: 0;
@@ -573,11 +574,11 @@ footer {
     /* work samples pages style  */
 
     .work-blurb {
-        width: 40%;
+        width: 50%;
     }
 
     .work-pages {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -758,6 +759,7 @@ footer {
         text-align: center;
         right: auto;
         order:1;
+        padding-top: 0em;
 
     }
     .work-pages {
