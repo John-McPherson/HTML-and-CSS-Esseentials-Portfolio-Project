@@ -1,23 +1,30 @@
 # **Testing** 
 
+* [Functionality Testing](#functionality-testing)
+* [Code Validation](#code-validation)
+* [Prefomance](#prefomance)
+
 ## **Functionality Testing**
 
 My first checks were to test the usablity of my website. I manually checked all internal links to see if they worked as intended. I also checked all extrenal links to make sure that they were linked to the correct place and that they opened in a seperate tab. 
 
 I then checked the forms to make sure that they worked correctly. Both forms worked as expexted and would not let you submit without the correct infomation. 
 
+[Newsletter Form working okay](./assets/images/read-me-img/newsletter-form-working.jpg)
+[Contact me Form Working okay](./assets/images/read-me-img/contact-form-working.jpg)
+
+I also checked to make sure that the site was responsive. I checked each page using developer tools on google chrome to check the break points and checked it against multiple emulated devices. 
+
 ## **Code Validation**
 
-I ran the html code through the W3C html validatior to make sure that there weren't any issues with the code. It flagged up some issues that were corrected in commits x and x. I then ran it throught the vaildator again and it passed. 
+I ran the html code through the W3C html validatior to make sure that there weren't any issues with the code. It flagged up some issues that were corrected in commits cee9f5 and c8c9ce. I then ran it throught the vaildator again and it passed. 
 
-![W3C CSS validation ](./assets/images/read-me-img/w3c-css-validation-pass.jpg)
+![W3C CSS validation ](./assets/images/read-me-img/w3c-html-validation-pass.jpg)
 
 I then ran the code through the the W3C CSS validation service and it passed.
 
 ![W3C CSS validation ](./assets/images/read-me-img/w3c-css-validation-pass.jpg)
 ## **Prefomance**
-
-### Lighthouse
 
 Lighthouse in chrome developer tools was used to assess the preformance of the page. The top image shows the desktop preformance of the home page, while the bottom image shows it's mobile preformance. I also checked all other pages and they got the same, if not a better, score. 
 
