@@ -13,7 +13,9 @@ I then checked the forms to make sure that they worked correctly. Both forms wor
 [Newsletter Form working okay](./assets/images/read-me-img/newsletter-form-working.jpg)
 [Contact me Form Working okay](./assets/images/read-me-img/contact-form-working.jpg)
 
-I also checked to make sure that the site was responsive. I checked each page using developer tools on google chrome to check the break points and checked it against multiple emulated devices. 
+I also checked to make sure that the site was responsive. I checked each page using developer tools on Google Chrome to check the break points and checked it against multiple emulated devices. 
+
+I also checked the site on multiple browsers (Google Chrome, Firefox, and Safari) to ensure that my site works on accross different browsers and it was responsive on all three. Finally I tested the site on my phone to ensure that it was responsive on smaller screens. 
 
 ## **Code Validation**
 
