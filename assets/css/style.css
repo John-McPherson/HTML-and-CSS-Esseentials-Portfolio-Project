@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    font-family: Madawaska, serif;
+    font-family: "Madawaska", serif;
     font-weight: 400;
     color: var(--dark-gray);
 }
@@ -32,7 +32,7 @@ li {
 
 h1,
 h2 {
-    font-family: bio-sans, sans-serif;
+    font-family: "bio-sans", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -45,7 +45,7 @@ h2 {
 
 h3 {
     font-size: 2em;
-    font-family: bio-sans, sans-serif;
+    font-family: "bio-sans", sans-serif;
     font-weight: 700;
     color: var(--light-gray)
 }
@@ -82,7 +82,7 @@ a:hover {
     background-color: var(--dark-gray);
     color: var(--light-gray);
     padding: var(--button-padding);
-    font-family: bio-sans, sans-serif;
+    font-family: "bio-sans", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     border: .25em solid var(--light-gray);
@@ -131,7 +131,7 @@ header li {
 }
 
 header a {
-    font-family: bio-sans, sans-serif;
+    font-family: "bio-sans", sans-serif;
     font-size: 1rem;
 }
 
@@ -165,8 +165,8 @@ a:hover {
 }
 
 .about-text {
-    display: flex;
-    flex-flow: column nowrap;
+    /* display: flex;
+    flex-flow: column nowrap; */
     justify-content: center;
     align-content: center;
 }
@@ -235,7 +235,7 @@ textarea,
 input,
 select {
     font-size: 1em;
-    font-family: Madawaska, serif;
+    font-family: "Madawaska", serif;
     font-weight: 400;
     color: var(--dark-gray);
 }
@@ -262,7 +262,7 @@ input[type=text] {
 
 input[type=submit] {
     width: 8em;
-    font-family: bio-sans, sans-serif;
+    font-family: "bio-sans", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     padding: 0;
@@ -282,7 +282,7 @@ textarea {
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 1em;
-    font-family: Madawaska, serif;
+    font-family: "Madawaska", serif;
     font-weight: 400;
     color: var(--dark-gray);
 }
@@ -290,7 +290,7 @@ textarea {
 ::-moz-placeholder {
     /* Firefox 19+ */
     font-size: 1em;
-    font-family: Madawaska, serif;
+    font-family: "Madawaska", serif;
     font-weight: 400;
     color: var(--dark-gray);
 }
@@ -298,7 +298,7 @@ textarea {
 :-ms-input-placeholder {
     /* IE 10+ */
     font-size: 1em;
-    font-family: Madawaska, serif;
+    font-family: "Madawaska", serif;
     font-weight: 400;
     color: var(--dark-gray);
 }
@@ -306,7 +306,7 @@ textarea {
 :-moz-placeholder {
     /* Firefox 18- */
     font-size: 1em;
-    font-family: Madawaska, serif;
+    font-family: "Madawaska", serif;
     font-weight: 400;
     color: var(--dark-gray);
 }
@@ -328,7 +328,7 @@ textarea {
 }
 
 #newsletter-form h2, label{
-    font-family: bio-sans, sans-serif;
+    font-family: "bio-sans", sans-serif;
     color: var(--white);
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -357,7 +357,7 @@ tr {
 }
 
 #editoral th {
-    font-family: bio-sans, sans-serif;
+    font-family: "bio-sans", sans-serif;
     color: var(--white);
     font-size: 1.1em;
 }
@@ -443,7 +443,7 @@ input,
 textarea,
 select {
     align-self: center;
-    font-family: Madawaska, serif;
+    font-family: "Madawaska", serif;
     font-weight: 400;
     text-transform: none;
     margin: .5em;
@@ -461,7 +461,7 @@ select {
 }
 
 #contact label {
-    font-family: Madawaska, serif;
+    font-family: "Madawaska", serif;
     font-weight: 400;
     font-size: 1.25em;
     color: var(--light-gray);
@@ -534,7 +534,7 @@ footer {
 
 .work-blurb-links a,li {
     color: var(--white);
-    font-family: bio-sans, sans-serif;
+    font-family: "bio-sans", sans-serif;
     font-weight: 400;
     font-size: 1em;
 }
@@ -757,7 +757,7 @@ footer {
         position:inherit;
         margin: 7.5em 0 0 0;
         text-align: center;
-        right: auto;
+        /* right: auto; */
         order:1;
         padding-top: 0em;
 
