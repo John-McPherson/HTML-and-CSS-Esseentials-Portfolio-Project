@@ -8,6 +8,10 @@
     --margin: 4rem 8rem;
 }
 
+/* code addapted from Kevin Powell's youtube video;
+    Smooth Scrolling with one line of CSS
+    https://www.youtube.com/watch?v=jBhuPKnsBCE*/
+
 html {
     scroll-behavior: smooth;
 }
@@ -56,7 +60,8 @@ h3 {
 
 /* body text styling */
 
-p, q {
+p,
+q {
     text-align: center;
     padding: var(--padding);
     font-size: 1.1rem;
@@ -226,9 +231,11 @@ a:hover {
 .lettering-buttons>a {
     margin: .5em;
 }
+
 .lettering-buttons i {
     padding-right: .5em;
 }
+
 /* basic form style */
 
 textarea,
@@ -279,6 +286,9 @@ textarea {
 
 /* placeholder font style */
 
+/* Used the CSS style for styling for placeholder text from CSStricks.com
+https://css-tricks.com/almanac/selectors/p/placeholder/ */
+
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 1em;
@@ -327,7 +337,8 @@ textarea {
 
 }
 
-#newsletter-form h2, label{
+#newsletter-form h2,
+label {
     font-family: "bio-sans", sans-serif;
     color: var(--white);
     text-transform: uppercase;
@@ -384,7 +395,8 @@ tr {
     padding: var(--padding);
 }
 
-#editoral q,p {
+#editoral q,
+p {
     text-align: justify;
     padding: .25em 1em
 }
@@ -469,6 +481,10 @@ select {
 
 /* footer */
 
+/* code for footer adaptaed from the Code Institute Love Running Code Along project. 
+https://github.com/Code-Institute-Solutions/Love-Running-Solutions */
+
+
 footer {
     height: 75px;
     background-color: var(--light-gray);
@@ -532,7 +548,8 @@ footer {
     text-align: left;
 }
 
-.work-blurb-links a,li {
+.work-blurb-links a,
+li {
     color: var(--white);
     font-family: "bio-sans", sans-serif;
     font-weight: 400;
@@ -624,6 +641,10 @@ footer {
         transition: transform 400ms ease-in-out;
     }
 
+    /* code addapted from Kevin Powell's youtube video;
+    Create a responsive navigation nav with no JS!
+    https://www.youtube.com/watch?v=8QKOaTYvYUA&t=2344s */
+
     .nav-toggle:checked~nav {
         transform: scale(1, 1);
     }
@@ -673,6 +694,7 @@ footer {
         opacity: 1;
         transition: opacity 250ms ease-in-out 250ms;
     }
+
 
     /* image gallery  */
     .gallery-img {
@@ -754,34 +776,42 @@ footer {
     .work-blurb {
         height: auto;
         width: 100%;
-        position:inherit;
+        position: inherit;
         margin: 7.5em 0 0 0;
         text-align: center;
-        order:1;
+        order: 1;
         padding-top: 0em;
 
     }
+
     .work-pages {
         width: 100%;
-        order:2;
+        order: 2;
         margin-top: 0;
     }
-    .work-blurb > h2,a,p{
+
+    .work-blurb>h2,
+    a,
+    p {
         text-align: center;
     }
+
     .work-blurb>ul {
         margin: 0;
     }
-    .buy-link{
+
+    .buy-link {
         margin: var(--margin);
         margin-top: 0;
     }
-    .work-blurb >h2{
+
+    .work-blurb>h2 {
         margin: var(--margin);
         font-size: 2.5em;
-        margin-bottom:0;
+        margin-bottom: 0;
     }
-    .work-blurb>p{
+
+    .work-blurb>p {
         margin: 0 3em;
         text-align: center;
     }
@@ -826,18 +856,21 @@ footer {
     }
 
     /* work sample pages  */
-    
-    .work-blurb>p{
+
+    .work-blurb>p {
         margin: 0 1em;
     }
+
     /* header */
     .logo>h1 {
         font-size: 2em;
         padding-right: 0;
     }
+
     header {
         height: 50px;
     }
+
     .nav-toggle-label {
         margin-left: 1em;
     }
