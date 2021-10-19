@@ -10,8 +10,8 @@ My first checks were to test the usability of my website. I manually checked all
 
 I then checked the forms to make sure that they worked correctly. Both forms worked as expected and would not let you submit without the correct information. 
 
-[Newsletter Form working okay](./assets/images/read-me-img/newsletter-form-working.jpg)
-[Contact me Form Working okay](./assets/images/read-me-img/contact-form-working.jpg)
+![Newsletter Form working okay](./assets/images/read-me-img/newsletter-form-working.jpg)
+![Contact me Form Working okay](./assets/images/read-me-img/contact-form-working.jpg)
 
 I also checked to make sure that the site was responsive. I checked each page using developer tools on Google Chrome to check the break points and checked it against multiple emulated devices. 
 

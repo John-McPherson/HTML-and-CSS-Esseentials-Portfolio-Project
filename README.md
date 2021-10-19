@@ -20,7 +20,7 @@ This project is the first milestone project for the Code Institute Diploma in Fu
     * [Editorial Work](#editorial-work)
     * [Contact Form](#contact-form)
     * [Footer](#footer)
-    * [Writing Portfolio**](#writing-portfolio)
+    * [Writing Portfolio](#writing-portfolio)
 * [Features left to implement](features-left-to-implement)
     * [Upcoming Appearances](#upcoming-appearances)
     * [Update Navbar](#update-navbar)
@@ -153,7 +153,7 @@ All code was written by me with the following exceptions;
 
 * Used the html code and CSS for social media icons and adapted from the [Code Institute Love Running Code Along project.](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) 
 
-* Used the CSS style for styling for placeholder text from [CSStricks.com] (https://css-tricks.com/almanac/selectors/p/placeholder/)
+* Used the CSS style for styling for placeholder text from [CSStricks.com](https://css-tricks.com/almanac/selectors/p/placeholder/)
 
 * Used the CSS code for smooth scrolling from Kevin Powell’s [YouTube page](https://www.youtube.com/watch?v=jBhuPKnsBCE) 
 
