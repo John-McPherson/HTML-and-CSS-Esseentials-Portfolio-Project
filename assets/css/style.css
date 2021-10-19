@@ -56,7 +56,7 @@ h3 {
 
 /* body text styling */
 
-p {
+p, q {
     text-align: center;
     padding: var(--padding);
     font-size: 1.1rem;
@@ -165,8 +165,8 @@ a:hover {
 }
 
 .about-text {
-    /* display: flex;
-    flex-flow: column nowrap; */
+    display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
     align-content: center;
 }
@@ -384,7 +384,7 @@ tr {
     padding: var(--padding);
 }
 
-#editoral p {
+#editoral q,p {
     text-align: justify;
     padding: .25em 1em
 }
@@ -757,7 +757,6 @@ footer {
         position:inherit;
         margin: 7.5em 0 0 0;
         text-align: center;
-        /* right: auto; */
         order:1;
         padding-top: 0em;
 
